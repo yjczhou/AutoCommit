@@ -20,7 +20,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-            
+      - name: config git
+        run: |
+          git config --global user.email 15172206465@163.com
+          git config --global user.name yejingchen
+      
       - name: change
         run: bash ./autoCommit.sh
         

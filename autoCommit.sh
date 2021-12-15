@@ -5,6 +5,6 @@ d = `date "+%Y-%m-%d %H:%M:%S"`
 echo "$d" >> ./README.md
 git fetch origin
 git merge origin/main
-git add README.md
+git add ./README.md
 git commit -m "$d"
 # git push origin main

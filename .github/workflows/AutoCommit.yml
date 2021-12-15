@@ -31,4 +31,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: commit
         run: |
-          git push https://github.com/zhou-yjc/AutoCommit.git
+          git push https://github.com/zhou-yjc/AutoCommit.git main

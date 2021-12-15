@@ -1,6 +1,6 @@
 #!/bin/bash
 
-d = `date "+%Y-%m-%d %H:%M:%S"`
+d = `date "+现在时间是：%Y-%m-%d %H:%M:%S"`
 # d = '你好'
 echo "$d" >> ./README.md
 git fetch origin

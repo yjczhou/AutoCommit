@@ -22,11 +22,7 @@ jobs:
       - uses: actions/checkout@v2
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN}}
-          
-      # Runs a single command using the runners shell
-      - name: config git
-        run: git config --global init.defaultBranch <name>
-        
+      
       - name: change
         run: bash ./autoCommit.sh
         
